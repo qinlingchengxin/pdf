@@ -52,11 +52,11 @@ public class PdfSign {
         sign(srcPath, desPath, imgPath, pages, fieldName);
         System.out.println("use time:" + (System.currentTimeMillis() - now) + " -->" + fieldName);
 
-      /*  //撤销签章
+        //撤销签章
         now = System.currentTimeMillis();
         String unSignPath = "E:/unSign_" + System.currentTimeMillis() + ".pdf";
         unSign(desPath, unSignPath, fieldName);
-        System.out.println("use time:" + (System.currentTimeMillis() - now) + " -->" + fieldName);*/
+        System.out.println("use time:" + (System.currentTimeMillis() - now) + " -->" + fieldName);
     }
 
     /**
